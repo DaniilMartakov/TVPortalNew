@@ -1,0 +1,404 @@
+@media screen and (max-width: 768px){
+
+/* заголовок страницы */
+.menu-name{
+    margin-bottom: 5%;
+    color: #1768AC;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0.5px 0.5px 0.5px #000000;
+}
+/* выпадающий список с категориями */
+.one-category-rest{
+    background-color: #1768AC;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 140px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: center;
+    height: 95%;
+    border: 1.5px black solid;
+    color: white;
+    padding-top: 3%;
+}
+.one-category-rest:active{
+    background-color: #03256C;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 140px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: center;
+    height: 95%;
+    border: 1.5px black solid;
+    color: white;
+    padding-top: 3%;
+}
+
+.type-name{
+    font-size:15px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0;
+    color: white;
+}
+.category-rest{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x:scroll ;
+    height: 130px;
+}
+
+.name-category-rest{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 5px;
+}
+
+
+
+
+.name-title-rest{
+    background-color: #d3edf9;
+    font-size: 12px;
+    font-weight: 700;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    text-align: center;
+    padding: 3px;
+    border: 0.5px black solid;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    color: #03256C;
+    font-weight: 800;
+}
+
+
+  /* заголовок для категорий */
+.div-card-rest{
+    display: flex;
+    justify-content: center;
+}
+.p-card-rest{
+    font-size: 25px;
+    font-weight: bold;
+    color: #1768AC;
+    text-shadow: 0.5px 0.5px 0.5px #000000;
+    text-align: center;
+    padding: 4% 0% 3% 0%;
+    margin: 0;
+}
+/* одна каточка ресторана */
+.text-start{
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 1px 10px 2px rgba(34, 60, 80, 0.2);
+    border-radius: 5px;
+}
+.card-body-rest{
+    width: 100%;
+    height: 100%;
+    padding: 2% 1% 0% 3%;
+    font-weight: 600;
+    background-color: #e5f4fb89;
+    color: #03256C;
+}
+.card-body-count-rest{
+    display: flex;
+    justify-content: flex-end;
+}
+.div-count-rest{
+        display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95px;
+
+}
+.img-card-rest{
+    width: 100%; 
+    height: 100%;
+    margin: 0;
+    object-fit: fill; 
+    border-radius: 5px;
+}
+.btnPrimary{
+    border: 1px rgb(23, 23, 23) solid ;   
+    text-align: center;
+    width: 100%; 
+    font-weight: 600;
+    color: white;
+    background-color: #03256C ;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.btnPrimary:active{
+    background-color: #1768AC ;
+}
+.btn-count-rest{
+    border-radius: 50px;
+    font-size: 15px;
+    margin: 0;     
+    color:white;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    background-color:#03256C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px rgb(23, 23, 23) solid ;   
+} 
+.btn-count-rest:active{
+    background-color:#1768AC;   
+}
+.card-title-menu{
+    font-size: 18px;
+    font-weight: 700;
+    color: #03256C;
+    margin: 0;
+
+}
+.card-text-menu{
+    font-size: 12px;
+    font-weight: 600;
+}
+.rest-count{
+    margin: 0px;
+    font-size:22px;
+    color:#03256C
+}
+.rest-price{
+    font-size: 15px;
+    margin-top: 3px;
+    color: #03256C
+}
+}
+@media screen and (min-width: 768px)  and (max-width: 2400px) {
+
+/* заголовок страницы */
+.menu-name{
+    margin-bottom: 5%;
+    color: #1768AC;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0.5px 0.5px 0.5px #000000;
+}
+/* выпадающий список с категориями */
+.one-category-rest{
+    background-color: #1768AC;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;   
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: center;
+    height: 95%;
+    border: 1.5px black solid;
+    color: white;
+    padding-top: 3%;
+}
+.one-category-rest:active{
+    background-color: #03256C;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: center;
+    height: 95%;
+    border: 1.5px black solid;
+    color: white;
+    padding-top: 3%;
+}
+
+.type-name{
+    font-size:20px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0;
+    color: white;
+}
+.category-rest{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x:scroll ;
+    height: 179px;
+}
+
+.name-category-rest{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 5px;
+}
+
+
+
+
+.name-title-rest{
+    background-color: #d3edf9;
+    font-size: 20px;
+    font-weight: 700;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    text-align: center;
+    padding: 3px;
+    border: 0.5px black solid;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    color: #03256C;
+    font-weight: 800;
+}
+
+
+  /* заголовок для категорий */
+.div-card-rest{
+    display: flex;
+    justify-content: center;
+}
+.p-card-rest{
+    font-size: 35px;
+    font-weight: bold;
+    color: #1768AC;
+    text-shadow: 0.5px 0.5px 0.5px #000000;
+    text-align: center;
+    padding: 4% 0% 3% 0%;
+    margin: 0;
+}
+/* одна каточка ресторана */
+.text-start{
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 1px 10px 2px rgba(34, 60, 80, 0.2);
+    border-radius: 5px;
+}
+.card-body-rest{
+    width: 100%;
+    height: 100%;
+    padding: 2% 1% 0% 3%;
+    font-weight: 600;
+    background-color: #e5f4fb89;
+    color: #03256C;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-body-count-rest{
+    display: flex;
+    justify-content: flex-end;
+}
+.div-count-rest{
+        display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 135px;
+
+}
+.img-card-rest{
+    width: 100%; 
+    height: 100%;
+    margin: 0;
+    object-fit: fill; 
+    border-radius: 5px;
+}
+.btnPrimary{
+    border: 1px rgb(23, 23, 23) solid ;   
+    text-align: center;
+    width: 100%; 
+    font-weight: 600;
+    color: white;
+    background-color: #03256C ;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    height: 40px;
+    font-weight: 600;
+}
+.btnPrimary:active{
+    background-color: #1768AC ;
+}
+.btn-count-rest{
+    border-radius: 50px;
+    font-size: 15px;
+    margin: 0;     
+    color:white;
+    text-align: center;
+    width: 35px;
+    height: 35px; 
+    border-radius: 5px;
+    background-color:#03256C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px rgb(23, 23, 23) solid ;   
+} 
+.btn-count-rest:active{
+    background-color:#1768AC;   
+}
+.card-title-menu{
+    font-size: 28px;
+    font-weight: 700;
+    color: #03256C;
+    margin: 0;
+
+}
+.card-text-menu{
+    font-size: 22px;
+    font-weight: 600;
+}
+.rest-count{
+    margin: 0px;
+    font-size:32px;
+    color:#03256C
+}
+.rest-price{
+    font-size: 25px;
+    margin-top: 3px;
+    color: #03256C
+}
+.rest-btn-icon{
+    font-size: 22px;
+}
+}

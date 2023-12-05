@@ -1,0 +1,312 @@
+@media screen and (max-width: 768px) {
+
+.buscket-name{
+    color: #1768AC;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0.5px 0.5px 0.5px #000000;
+}
+
+/* стили для корзины */
+.card-body-basket{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 3%;
+    font-weight: 600;
+    color: #03256C;
+    background-color: #e5f4fb89;
+    border: 1.5px black solid;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.basket-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #1768AC;
+    text-shadow: 0.5px 0.5px 0.5px #000000;
+    text-align: center;
+    padding: 4% 0% 3% 0%;
+    margin: 0;
+}
+
+.btn-basket{
+    border-radius: 50px;
+    font-size: 15px;
+    margin: 0;     
+    color:white;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #03256C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px rgb(23, 23, 23) solid ;  
+}
+.btn-basket:active{
+    border-radius: 50px;
+    font-size: 15px;
+    margin: 0;     
+    color:white;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #1768AC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px rgb(23, 23, 23) solid ;  
+}
+
+.total-price-basket{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.delete-btn{
+    width: 100%;
+    font-size: 17px;
+    margin: 0;     
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #03256C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px rgb(23, 23, 23) solid ; 
+}
+
+
+.basket-empty{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #1768AC;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0.5px 0.5px 0.5px #000000;
+}
+
+
+.basket-order{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-items: center;
+}
+
+.title-order{
+    font-size:x-large;
+    font-weight: 600;
+    color: #03256C;
+
+}
+.card-title-basket{
+    font-size: 18px;
+    font-weight: 700;
+    color: #03256C;
+    margin: 0;
+}
+
+.btn-order{
+    width: 100%;
+    font-size: 17px;
+    height: 50px;
+    margin: 0;     
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #03256C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px rgb(23, 23, 23) solid ; 
+}
+.btn-order:active{
+    width: 100%;
+    font-size: 17px;
+    height: 50px;
+    margin: 0;     
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #1768AC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px rgb(23, 23, 23) solid ; 
+}
+.price-basket{
+    margin: 0;
+}
+}
+@media screen and (min-width: 768px)  and (max-width: 2400px) {
+
+/* стили для корзины */
+.buscket-name{
+    color: #1768AC;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0.5px 0.5px 0.5px #000000;
+}
+
+/* стили для корзины */
+.card-body-basket{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 3%;
+    font-weight: 800;
+    color: #03256C;
+    background-color: #e5f4fb89;
+    border: 1.5px black solid;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.basket-title{
+    font-size: 45px;
+    font-weight: bold;
+    color: #1768AC;
+    text-shadow: 0.5px 0.5px 0.5px #000000;
+    text-align: center;
+    padding: 4% 0% 3% 0%;
+    margin: 0;
+}
+
+.btn-basket{
+    margin: 0;     
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #03256C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px rgb(23, 23, 23) solid ;
+    border-radius: 5px;
+    font-size: 35px;
+    width: 45px;
+    height: 45px;   
+}
+.btn-basket:active{
+    margin: 0;     
+    color:white;
+    text-align: center;
+    font-size: 35px;
+    width: 45px;
+    height: 45px;   
+    border-radius: 5px;
+    background-color: #1768AC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px rgb(23, 23, 23) solid ;  
+}
+
+.total-price-basket{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.delete-btn{
+    width: 100%;
+    font-size: 27px;
+    margin: 0;     
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #03256C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px rgb(23, 23, 23) solid ; 
+}
+
+
+.basket-empty{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #1768AC;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0.5px 0.5px 0.5px #000000;
+}
+
+
+.basket-order{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-items: center;
+}
+
+.title-order{
+    font-size:35px;
+    font-weight: 600;
+    color: #03256C;
+
+}
+.card-title-basket{
+    font-size: 38px;
+    font-weight: 700;
+    color: #03256C;
+    margin: 0;
+}
+
+.btn-order{
+    width: 100%;
+    font-size: 27px;
+    height: 50px;
+    height: 100%;
+    margin: 0;     
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #03256C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px rgb(23, 23, 23) solid ; 
+}
+.btn-order:active{
+    width: 100%;
+    font-size: 27px;
+    height: 50px;
+    margin: 0;     
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #1768AC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px rgb(23, 23, 23) solid ; 
+}
+.price-basket{
+    margin: 0;
+    font-size: x-large;
+}
+}
