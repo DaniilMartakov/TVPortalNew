@@ -1,4 +1,4 @@
-let doCache = true;
+let doCache = false;
 let CACHE_NAME = 'my-pwa-cache-v0.1.01';
 
 const CACHE_FILES = [

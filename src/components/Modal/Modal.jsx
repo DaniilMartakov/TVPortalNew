@@ -24,7 +24,12 @@ export default function Modal({active , setActive , item , count , name}) {
                 {name}
                 </p>
                 <br />
-                {desc ? desc: '' }
+                <div className='modal-description'>
+                {desc ? 
+                    desc
+                    : 
+                    '' }
+                    </div>
                 <br />
                 {count ? `Колличество: ${count}`: '' }
                 <br />

@@ -77,8 +77,8 @@ export default function PaidExcursion({item}) {
         <label className='label-excursion'>Группа :</label>
         <select style={{fontSize: '20px', fontWeight: '600', color: '#03256C'}} value={value} onChange={handleValueChange}>
           <option value="">Выберите группу</option>
-          { item?.prices?.map((el) => 
-            <option value={el.min_count}>{el.min_count}</option>)
+          { item?.prices?.map((el, index) => 
+            <option key={index} value={el.min_count}>{el.min_count}</option>)
           }
         </select>
       </div>
