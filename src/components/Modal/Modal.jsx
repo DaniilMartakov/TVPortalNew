@@ -6,8 +6,7 @@ import { faX } from '@fortawesome/free-solid-svg-icons'
 export default function Modal({active , setActive , item , count , name}) {
     const desc = item.description
     const price = item?.price * count
-
-  return (
+    return (
     <div className={active ? 'modalka active' : 'modalka'} onClick={() => setActive(false)}>
         <div className={active ? "modal__content active" : "modal__content"} onClick={e => e.stopPropagation()}>
             <div className="modal__title">
@@ -23,19 +22,22 @@ export default function Modal({active , setActive , item , count , name}) {
                 <p className='modalka-title'>
                 {name}
                 </p>
-                <br />
-                <div className='modal-description'>
+                {/* <br /> */}
+                <div style={{display:'flex', alignItems: 'center', marginBottom: '15px'}}>
+                {item.src ? <img src={item.src} className='modal-img' alt='!#'/>: '' }
+                <div  className='modal-desc'>
                 {desc ? 
                     desc
                     : 
-                    '' }
+                    'Oписание отсутствует' }
                     </div>
                 <br />
+                </div>
                 {count ? `Колличество: ${count}`: '' }
                 <br />
                 {price ? `Общая сумма: ${price}руб.`:'' }
             </div>
         </div>
     </div>
-  )
+    )
 }

@@ -54,7 +54,20 @@
 }
 .modalka-title{
     margin:0;
-    font-size:26px
+    font-size:26px;
+    margin-bottom: 10px;
+}
+.modal-desc{
+    max-height: 300px;
+    overflow: auto; 
+    font-weight: 600;
+}
+.modal-img{
+    width: 150px;
+    margin-right: 10px;
+    border-radius: 7px;
+    border: 0.5px black solid;
+
 }
 }
 /* #e5f4fb */
@@ -112,10 +125,18 @@
     font-size: 31px;
 }
 .modalka-title{
-    font-size:36px
+    font-size:36px;
+    margin-bottom: 20px;
 }
-}
-.modal-description{
+.modal-desc{
     max-height: 400px;
     overflow: auto; 
+    font-weight: 600;
+}
+.modal-img{
+    width: 250px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 1px black solid;
+}
 }

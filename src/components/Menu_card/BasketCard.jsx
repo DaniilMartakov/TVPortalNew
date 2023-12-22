@@ -3,6 +3,7 @@ import { changeBasketThunk, getBasketThunk, removeBasketThunk } from '../../redu
 import { useDispatch, useSelector } from 'react-redux'
 
 export default function BasketCard({item}) {
+  console.log(item);
     const room = useSelector((store) => store?.user?.data?.room)
     const dispatch = useDispatch()
     const product = item?.product_id

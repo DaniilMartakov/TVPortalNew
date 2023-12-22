@@ -23,9 +23,9 @@ export default function PaidExcursion({item}) {
         room: room,
         category: 'excursions',
         product_id: product,
-        count: quantity,
-        product_name: `${item?.name} (Группа от ${value} человек)`,
-        price: foundObject?.price , 
+        count: quantity == '' ? 1 : quantity,
+        product_name:`${item?.name} (Группа от ${value == '' ? item?.prices[0]?.min_count : value} человек)`,
+        price: foundObject?.price == undefined ?  item?.prices[0]?.price : foundObject?.price , 
       }
   }
   const [modalActive, setModalActive] = useState(false)
